@@ -205,6 +205,9 @@ Gallery
   border-bottom: 4px solid grey;
 }
 
+.gallery-inner {
+  height: 500px;
+}
 .img-in-gallery {
   max-width: 100%;
   display: block;
@@ -213,5 +216,31 @@ Gallery
 }
 
 .text-in-gallery {
-  margin-left: 30px;
+  margin-left: 20px;
+}
+
+.gallery-inner-border-of-image {
+  border: 1px solid #e2e2e2;
+  width: 260px;
+  padding: 10px;
+  position: relative;
+}
+
+.gallery-inner-border-of-image::before,
+.gallery-inner-border-of-image::after {
+  content: "";
+  width: 20px;
+  height: 20px;
+  background-color: #fff;
+  position: absolute;
+}
+
+.gallery-inner-border-of-image::before {
+  top: -10px;
+  right: -10px;
+}
+
+.gallery-inner-border-of-image::after {
+  bottom: -10px;
+  left: -10px;
 }
