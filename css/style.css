@@ -1,0 +1,51 @@
+@font-face {
+  font-family: "Roboto";
+  src: url("../files/roboto-fonts/roboto-regular-webfont.woff2") format("woff2"),
+    url("../files/roboto-fonts/roboto-regular-webfont.woff") format("woff");
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Roboto";
+  src: url("../files/roboto-fonts/roboto-bold_0-webfont.woff2") format("woff2"),
+    url("../files/roboto-fonts/roboto-bold_0-webfont.woff") format("woff");
+  font-weight: 700;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Roboto";
+  src: url("../files/roboto-fonts/roboto-bolditalic-webfont.woff2")
+      format("woff2"),
+    url("../files/roboto-fonts/roboto-bolditalic-webfont.woff") format("woff");
+  font-weight: 700;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: "Roboto";
+  src: url("../files/roboto-fonts/roboto-italic-webfont.woff2") format("woff2"),
+    url("../files/roboto-fonts/roboto-italic-webfont.woff") format("woff");
+  font-weight: 400;
+  font-style: italic;
+}
+
+body {
+  margin: 0;
+}
+
+.container {
+  max-width: 1252px;
+  padding: 0 20px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.header {
+  background-color: #cfe5ef;
+}
+
+.header__content {
+  display: flex;
+}
