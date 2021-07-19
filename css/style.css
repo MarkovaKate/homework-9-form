@@ -1,5 +1,5 @@
 @font-face {
-  font-family: "Roboto";
+  font-family: "Roboto", "Arial", sans-serif;
   src: url("../files/roboto-fonts/roboto-regular-webfont.woff2") format("woff2"),
     url("../files/roboto-fonts/roboto-regular-webfont.woff") format("woff");
   font-weight: 400;
@@ -7,7 +7,7 @@
 }
 
 @font-face {
-  font-family: "Roboto";
+  font-family: "Roboto", "Arial", sans-serif;
   src: url("../files/roboto-fonts/roboto-bold_0-webfont.woff2") format("woff2"),
     url("../files/roboto-fonts/roboto-bold_0-webfont.woff") format("woff");
   font-weight: 700;
@@ -15,7 +15,7 @@
 }
 
 @font-face {
-  font-family: "Roboto";
+  font-family: "Roboto", "Arial", sans-serif;
   src: url("../files/roboto-fonts/roboto-bolditalic-webfont.woff2")
       format("woff2"),
     url("../files/roboto-fonts/roboto-bolditalic-webfont.woff") format("woff");
@@ -24,7 +24,7 @@
 }
 
 @font-face {
-  font-family: "Roboto";
+  font-family: "Roboto", "Arial", sans-serif;
   src: url("../files/roboto-fonts/roboto-italic-webfont.woff2") format("woff2"),
     url("../files/roboto-fonts/roboto-italic-webfont.woff") format("woff");
   font-weight: 400;
@@ -43,7 +43,7 @@ body {
 
 .container {
   max-width: 1252px;
-  padding: 0 20px;
+  padding: 20px 20px;
   margin-left: auto;
   margin-right: auto;
 }
@@ -138,4 +138,80 @@ body {
 .header__enter:hover {
   color: #fff;
   background-color: black;
+}
+
+/* main content
+======================================
+*/
+
+.bold-text {
+  font-weight: bold;
+}
+
+.float-1-border,
+.float-2-border,
+.reviews-border {
+  padding-bottom: 10px;
+  border-bottom: 3px solid grey;
+}
+
+.decor {
+  background-color: #e2e2e2;
+  height: 50px;
+  border: 2px solid #9f9f9f;
+}
+
+.module-grid-inner {
+  margin-top: 50px;
+}
+
+/* 
+---------------------------- 
+Reviews 
+*/
+
+.review-photo-1 {
+  max-width: 100%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 34px;
+}
+
+.reviews-autor {
+  margin-right: 20px;
+}
+
+.reviews-text {
+  padding-left: 25px;
+  padding-right: 10px;
+  font-size: 24px;
+}
+
+.reviews-text-data {
+  color: grey;
+}
+
+/* 
+---------------------------- 
+Gallery 
+*/
+
+.gallery {
+  text-align: center;
+  margin: 50px 500px;
+  font-weight: bold;
+  font-size: 24px;
+  border-bottom: 4px solid grey;
+}
+
+.img-in-gallery {
+  max-width: 100%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.text-in-gallery {
+  margin-left: 30px;
 }
