@@ -1,3 +1,7 @@
+img/
+.DS_store
+.vscode
+
 # Logs
 logs
 *.log
