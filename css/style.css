@@ -248,7 +248,8 @@ Gallery
 /* forms
 ============================
 */
-.container__form1 {
+
+.mt40px {
   margin-top: 40px;
 }
 
@@ -268,6 +269,10 @@ Gallery
   background-color: #c3c3c3;
 }
 
+/* form1
+============================
+*/
+
 #form1__input {
   width: 280px;
   height: 40px;
@@ -280,4 +285,44 @@ Gallery
   border: 1px solid #a0a0a0;
   color: #000;
   outline: none;
+}
+
+/* form2
+============================
+*/
+
+#form2__input {
+  width: 280px;
+  height: 40px;
+  padding: 0 0 0 50px;
+  border: 1px solid #a0a0a0;
+}
+
+#form2__input:focus {
+  background-color: #e9f8ff;
+  border: 1px solid #a0a0a0;
+  color: #000;
+  outline: none;
+}
+
+.form-group {
+  position: relative;
+}
+
+.form2__img {
+  position: absolute;
+  top: 10px;
+  left: 20px;
+}
+
+.form2__img__focus {
+  display: none;
+}
+
+#form2__input:focus ~ .form2__img__default {
+  display: none;
+}
+
+#form2__input:focus ~ .form2__img__focus {
+  display: block;
 }
