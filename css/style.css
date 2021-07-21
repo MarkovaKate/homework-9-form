@@ -305,7 +305,7 @@ Gallery
   outline: none;
 }
 
-.form-group {
+.form-group2 {
   position: relative;
 }
 
@@ -324,5 +324,48 @@ Gallery
 }
 
 #form2__input:focus ~ .form2__img__focus {
+  display: block;
+}
+
+/* form3
+============================
+Я сделала так, что не в фокусе изображения нет, когда фокус есть изображение добавляется. куда приткнуть изображение в неактивном состоянии по логике непоняно)..
+*/
+
+#form3-select {
+  width: 280px;
+  height: 40px;
+  padding: 0 0 0 10px;
+  border: 1px solid #a0a0a0;
+  color: grey;
+}
+
+.form3__img {
+  display: none;
+}
+
+#form3-select:focus {
+  background-color: #e9f8ff;
+  border: 1px solid #a0a0a0;
+  color: #000;
+  outline: none;
+  padding-left: 50px;
+}
+
+#form-group3 {
+  position: relative;
+}
+
+.form3__img {
+  position: absolute;
+  top: 10px;
+  left: 15px;
+}
+
+.form3__img {
+  display: none;
+}
+
+#form3-select:focus ~ .form3__img {
   display: block;
 }
