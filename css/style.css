@@ -444,3 +444,72 @@ Gallery
 .form5_item:checked ~ .form5__item__text {
   color: #52359d;
 }
+
+/* form6
+============================
+*/
+
+.form__textarea {
+  resize: none;
+  width: 615px;
+  height: 170px;
+  font-size: 20px;
+}
+
+.form__textarea:focus {
+  background-color: #e9f8ff;
+  color: #000;
+  font-size: 20px;
+  outline: none;
+}
+
+/* form7
+============================
+*/
+
+.form__textarea2 {
+  resize: none;
+  width: 615px;
+  height: 170px;
+  font-size: 20px;
+}
+
+.form__textarea2:focus {
+  background-color: #e9f8ff;
+  color: #000;
+  font-size: 20px;
+  outline: none;
+}
+
+.container__form7 {
+  position: relative;
+}
+
+.textarea__img {
+  position: absolute;
+  top: 60px;
+  left: 15px;
+}
+
+.textarea__img__focus {
+  display: none;
+}
+
+.form__textarea2:focus ~ .textarea__img__default {
+  display: none;
+}
+
+.form__textarea2:focus ~ .textarea__img__focus {
+  display: block;
+}
+
+.textarea-placeholder {
+  position: absolute;
+  top: 55px;
+  left: 50px;
+  color: #9f9f9f;
+}
+
+.form__textarea2:focus ~ .textarea-placeholder {
+  display: none;
+}
