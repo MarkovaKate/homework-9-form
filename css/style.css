@@ -406,3 +406,41 @@ Gallery
 .form_item:checked ~ .form__item__text {
   color: #52359d;
 }
+
+/* form5
+============================
+*/
+
+.radio {
+  display: inline-block;
+  width: 15px;
+  height: 15px;
+  border: 1px solid #a0a0a0;
+  border-radius: 50%;
+  position: relative;
+  cursor: pointer;
+}
+
+.radio::before {
+  content: "";
+  position: absolute;
+  width: 11px;
+  height: 11px;
+  background-color: #52359d;
+  top: 2px;
+  left: 2px;
+  border-radius: 50%;
+  display: none;
+}
+
+.form5_item:checked ~ .radio::before {
+  display: block;
+}
+
+.form5_item {
+  display: none;
+}
+
+.form5_item:checked ~ .form5__item__text {
+  color: #52359d;
+}
