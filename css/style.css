@@ -369,3 +369,40 @@ Gallery
 #form3-select:focus ~ .form3__img {
   display: block;
 }
+
+/* form4
+============================
+*/
+
+.check {
+  display: inline-block;
+  width: 15px;
+  height: 15px;
+  border: 1px solid #a0a0a0;
+  border-radius: 5px;
+  position: relative;
+  cursor: pointer;
+}
+
+.check::before {
+  content: "";
+  position: absolute;
+  width: 11px;
+  height: 11px;
+  background-color: #52359d;
+  top: 2px;
+  left: 2px;
+  display: none;
+}
+
+.form_item:checked ~ .check::before {
+  display: block;
+}
+
+.form_item {
+  display: none;
+}
+
+.form_item:checked ~ .form__item__text {
+  color: #52359d;
+}
