@@ -472,6 +472,7 @@ Gallery
   width: 615px;
   height: 170px;
   font-size: 20px;
+  padding: 15px 0px 0px 50px;
 }
 
 .form__textarea2:focus {
@@ -501,13 +502,6 @@ Gallery
 
 .form__textarea2:focus ~ .textarea__img__focus {
   display: block;
-}
-
-.textarea-placeholder {
-  position: absolute;
-  top: 55px;
-  left: 50px;
-  color: #9f9f9f;
 }
 
 .form__textarea2:focus ~ .textarea-placeholder {
